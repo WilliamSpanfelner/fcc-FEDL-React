@@ -1,0 +1,4 @@
+const MyComponent = 
+function() {
+    
+}
