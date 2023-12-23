@@ -15,7 +15,7 @@ class ParentComponent extends React.Component {
             <div>
                 <h1>I am the parent</h1>
 
-                
+                <ChildComponent />
 
 
             </div>
