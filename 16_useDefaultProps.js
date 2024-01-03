@@ -5,3 +5,5 @@ const ShoppingCart = (props) => {
         </div>
     )
 };
+
+ShoppingCart.defaultProps = {items: 0}
