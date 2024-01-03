@@ -7,6 +7,8 @@ Items.defaultProps = {
     quantity: 0
 }; 
 
+Items.propTypes = { quantity: PropTypes.number.isRequired }
+
 class ShoppingCart extends React.Component {
     constructor(props) {
         super(props);
