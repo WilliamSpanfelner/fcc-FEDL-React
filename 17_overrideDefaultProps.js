@@ -12,6 +12,6 @@ class ShoppingCart extends React.Component {
         super(props);
     }
     render() {
-        return <Items />
+        return <Items quantity={10}/>
     }
 };
