@@ -5,7 +5,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Welcome />
+                <Welcome name={"Fred"}/>
             </div>
         );
     }
@@ -18,7 +18,7 @@ class Welcome extends React.Component {
     render() {
         return (
             <div>
-                <p>Hello, <strong></strong>!</p>
+                <p>Hello, <strong>{this.props.name}</strong>!</p>
             </div>
         );
     }
