@@ -6,9 +6,10 @@ class MyComponent extends React.Component {
         }
     }
     render() {
+        const name = this.state.name;
         return (
             <div>
-                
+                <h1>{name}</h1>
             </div>
         );
     }
