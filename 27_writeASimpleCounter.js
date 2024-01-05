@@ -4,7 +4,9 @@ class Counter extends React.Component {
         this.state = {
             count: 0
         };
-
+        this.increment = this.increment.bind(this);
+        this.decrement = this.decrement.bind(this);
+        this.reset = this.reset.bind(this);
 
 
     }
