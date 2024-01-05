@@ -4,6 +4,7 @@ class MyComponent extends React.Component {
         this.state = {
             text: "Hello"
         };
+        this.handleClick = this.handleClick.bind(this);
     }
     handleClick() {
         this.setState({
