@@ -6,7 +6,7 @@ class MyComponent extends React.Component {
         };
         this.toggleVisibility = this.toggleVisibility.bind(this);
         
-        this.toggleVisibility() {
+        toggleVisibility() {
             this.setState(state => ({
                 visibility: !state.visibility
             }));
