@@ -14,7 +14,7 @@ class MyComponent extends React.Component {
     render() {
         return(
             <div>
-                <button>Click Me</button>
+                <button onClick={this.handleClick}>Click Me</button>
                 <h1>{this.state.text}</h1>
             </div>
         );
