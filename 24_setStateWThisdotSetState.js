@@ -7,7 +7,9 @@ class MyComponent extends React.Component {
         this.handleClick = this.handleClick.bind(this);
     }
     handleClick() {
-        
+        this.setState({
+            name: "React Rocks!"
+        });
     }
 
     render() {
