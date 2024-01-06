@@ -4,8 +4,7 @@ class ControlledInput extends React.Component {
         this.state = {
             input: ''
         };
-
-
+        this.handleChange = this.handleChange.bind(this);
 
     }
     
