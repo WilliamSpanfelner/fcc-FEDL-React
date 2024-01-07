@@ -21,7 +21,7 @@ class MyForm extends React.Component {
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
-
+                    <input value={this.state.input} onChange={this.handleChange} />
 
 
                     <button type='submit'>Submit!</button>
