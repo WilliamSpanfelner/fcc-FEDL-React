@@ -14,10 +14,10 @@ class MyForm extends React.Component {
         });
     }
     handleSubmit(event) {
+        event.preventDefault();
         this.setState({
             submit: this.state.input
-        })
-
+        });
     }
     render() {
         return (
