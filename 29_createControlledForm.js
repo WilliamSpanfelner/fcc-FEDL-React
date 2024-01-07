@@ -14,7 +14,9 @@ class MyForm extends React.Component {
         });
     }
     handleSubmit(event) {
-
+        this.setState({
+            submit: this.state.input
+        })
 
     }
     render() {
