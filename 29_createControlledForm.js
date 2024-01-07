@@ -9,12 +9,11 @@ class MyForm extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleChange(event) {
-
-
-
-
-
-
+        this.setState({
+            input: event.target.value
+        });
+    }
+    handleSubmit(event) {
 
 
     }
@@ -29,7 +28,7 @@ class MyForm extends React.Component {
                 </form>
 
 
-                
+
             </div>
         );
     }
