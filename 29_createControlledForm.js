@@ -29,7 +29,7 @@ class MyForm extends React.Component {
                     <button type='submit'>Submit!</button>
                 </form>
 
-
+                <h1>{this.state.submit}</h1>
 
             </div>
         );
