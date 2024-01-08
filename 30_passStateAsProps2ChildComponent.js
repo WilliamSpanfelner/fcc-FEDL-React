@@ -9,7 +9,7 @@ class MyApp extends React.Component {
         return (
             <div>
 
-                <Navbar />
+                <Navbar name={this.state.name}/>
             
             </div>
         );
