@@ -24,7 +24,7 @@ class Navbar extends React.Component {
         return (
             <div>
 
-                <h1>Hello, my name is: </h1>
+                <h1>Hello, my name is: {this.props.name}</h1>
             
             </div>
         );
