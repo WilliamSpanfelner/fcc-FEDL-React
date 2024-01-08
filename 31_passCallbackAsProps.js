@@ -15,7 +15,7 @@ class MyApp extends React.Component {
         return (
             <div>
 
-
+                <GetInput input={this.state.inputValue} handleChange={this.handleChange}/>
 
             </div>
         );
