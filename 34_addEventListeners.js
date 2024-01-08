@@ -9,7 +9,7 @@ class MyComponent extends React.Component {
     }
 
     componentDidMount() {
-
+        document.addEventListener('keydown', this.handleKeyPress);
     }
     componentWillMount() {
 
@@ -20,7 +20,7 @@ class MyComponent extends React.Component {
             message: state.message + 'You pressed the enter key! '
         }));
     }
-    handleKeyPress() {
+    handleKeyPress(event) {
         if (event.keyCode === 13) {
             this.handleEnter();
         }
