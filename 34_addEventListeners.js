@@ -12,7 +12,7 @@ class MyComponent extends React.Component {
         document.addEventListener('keydown', this.handleKeyPress);
     }
     componentWillMount() {
-
+        document.removeEventListener('keydown', this.handleKeyPress);
     }
 
     handleEnter() {
