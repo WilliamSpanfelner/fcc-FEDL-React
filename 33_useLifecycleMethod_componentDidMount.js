@@ -16,8 +16,8 @@ class MyComponent extends React.Component {
         return (
             <div>
 
-                <h1>Active Users: </h1>
-                
+                <h1>Active Users: {this.state.activeUsers}</h1>
+
             </div>
         );
     }
