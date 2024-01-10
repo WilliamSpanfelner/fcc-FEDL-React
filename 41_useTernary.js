@@ -41,7 +41,11 @@ const inputStyle = {
           />
           <br />
           {/* Change code below this line */}
-  
+            {this.state.userAge == '' ? 
+            buttonOne :
+            this.state.userAge < 18 ?
+            buttonThree : 
+            buttonTwo}
           {/* Change code above this line */}
         </div>
       );
