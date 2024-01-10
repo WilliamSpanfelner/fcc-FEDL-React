@@ -2,7 +2,7 @@ class MyComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            dispaly: true
+            display: true
         }
         this.toggleDisplay = toggleDisplay.bind(this);
     }
@@ -13,12 +13,19 @@ class MyComponent extends React.Component {
     }
     render() {
 
-        
-        return (
-            <div>
-                <button onClick={this.toggleDisplay}>Toggle Display</button>
-                <h1>Displayed!</h1>
-            </div>
-        );
+        if (this.state.display) {
+            return (
+                <div>
+                    <button onClick={this.toggleDisplay}>Toggle Display</button>
+                    <h1>Displayed!</h1>
+                </div>
+            );
+        } else {
+            return (
+                <div>
+                    <button onClick={this.toggleDisplay}>Toggle Display</button>
+                </div>
+            );
+        }
     }
 };
