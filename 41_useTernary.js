@@ -7,7 +7,10 @@ const inputStyle = {
     constructor(props) {
       super(props);
       // Change code below this line
-  
+      this.state + {
+        input: '',
+        userAge: ''
+      }
       // Change code above this line
       this.submit = this.submit.bind(this);
       this.handleChange = this.handleChange.bind(this);
