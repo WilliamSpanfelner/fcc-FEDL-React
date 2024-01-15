@@ -21,7 +21,7 @@ class GameOfChance extends React.Component {
         this.setState(prevState => {
 
             return {
-                counter: prevState
+                counter: prevState.counter + 1
             }
         });
     }
