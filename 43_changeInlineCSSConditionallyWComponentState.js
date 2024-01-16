@@ -13,7 +13,7 @@ class GateKeeper extends React.Component {
         let inputStyle = {
             border: '1px solid black'
         };
-
+        const gt15Chars = this.state.input.length > 15;
 
 
         return(
