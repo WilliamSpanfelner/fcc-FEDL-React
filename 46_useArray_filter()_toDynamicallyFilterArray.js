@@ -32,7 +32,7 @@ class MyComponent extends React.Component {
     }
     render() {
         const usersOnline = this.state.users.filter(user => user.online);
-        const renderOnline = null;
+        const renderOnline = usersOnline.map(user => <li key={Math.random()}>{user.username}</li>);
         return (
             <div>
                 <h1>Current Online Users:</h1>
