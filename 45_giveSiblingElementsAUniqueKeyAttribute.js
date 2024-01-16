@@ -8,7 +8,7 @@ const frontEndFrameworks = [
 ];
 
 function Frameworks() {
-    const renderFrameworks = null;
+    const renderFrameworks = frontEndFrameworks.map(framework => <li key={Math.random()}>{framework}</li>);
     return (
         <div>
             <h1>Popular Front End Javascript Frameworks</h1>
