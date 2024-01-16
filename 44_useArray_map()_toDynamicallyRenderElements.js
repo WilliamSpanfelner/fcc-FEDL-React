@@ -6,7 +6,10 @@ const textAreaStyles = {
 class MyToDoList extends React.Component {
     constructor(props) {
         super(props);
-
+        this.state = {
+            userInput: '',
+            toDoList: []
+        };
 
 
         this.handleSubmit = this.handleSubmit.bind(this);
