@@ -14,6 +14,11 @@ class GateKeeper extends React.Component {
             border: '1px solid black'
         };
         const gt15Chars = this.state.input.length > 15;
+        if (gt15Chars) {
+            inputStyle = {
+                border: '1px solid red'
+            };
+        }
 
 
         return(
