@@ -31,7 +31,7 @@ class MyComponent extends React.Component {
         };
     }
     render() {
-        const usersOnline = null;
+        const usersOnline = this.state.users.filter(user => user.online);
         const renderOnline = null;
         return (
             <div>
